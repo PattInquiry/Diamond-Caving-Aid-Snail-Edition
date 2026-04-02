@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "com.pattinquiry.mixin",
+	"compatibilityLevel": "JAVA_21",
+    "refmap": "diamond-caving-aid-snail-edition.refmap.json",
+	"mixins": [
+		"AddDiamondMixin",
+        "LavaRaycastingMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
